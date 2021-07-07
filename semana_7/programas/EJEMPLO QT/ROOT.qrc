@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="IMAGEN">
+    <file>C:/Users/alejo/Pictures/quantum_diagram/penalty.png</file>
+  </qresource>
+  <qresource prefix="IMAGEN2">
+    <file>C:/Users/alejo/Pictures/Kit.png</file>
+  </qresource>
+</RCC>

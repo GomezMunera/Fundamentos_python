@@ -1,0 +1,97 @@
+# Constantes
+PI=3.1416
+K=1000
+
+# Variables
+a = 1.0
+print(a)
+type(a)
+
+altura=int()
+
+# impresion de datos
+var_str = 'hola'
+var_str2 = "ahora"
+var_str3 = '''otra'''
+print(var_str+var_str2)
+print(var_str+var_str2+var_str3)
+
+print ("Renglón 1\nRenglón 2")
+
+print ("frase1\tfrase2")
+
+print("Hola", end=";")
+print("frase1","frase2")
+print("frase1", "frase2")
+print("frase1"," frase2")
+help(print)
+print("Hola", end=";")
+print("Hola", end="!!")
+print("Hola", end="\n")
+print(a, end="\n")
+print(a, end=";")
+print("Hola","mundo", "!", sep=" , ")
+titulo = "Total = "
+print(f"{titulo} 7+5")
+print(f"7+5 = {a+b}")
+a = 7
+b = 5
+titulo = "Total = "
+print(f"{titulo} 7+5")
+print(f"7+5 = {a+b}")
+print(f"{var_str} +  {a}")
+print("var 1: {}, var 2: {}".format(a,b))
+print("var 1: '{}', var 2: '{}'".format(a,b))
+a = 1
+print("var 1: {1}, var 2: {0}".format(a,b))
+print("var 1: {}, var 2: {}, string: {}".format(a,b,titulo))
+
+# Impresión de variables con f-string
+a = 7
+b = 5
+titulo = "Total = "
+print(f"{titulo} 7+5")
+print(f"7+5 = {a+b}")
+
+i=2
+a='Empaque_%0.3f'%(i)
+b='Empaque_%i'%(i)
+print(a)
+print(b)
+a = 'Empaque_%.8f'%(i)
+print(a)
+
+
+
+# Entrada de datos
+nombre = input("Nombre: ")
+nombre = input("Ingrese Nombre: ")
+print("El nombre es: {}".format(nombre))
+type(nombre)
+edad = input("Ingrese Edad: ")
+type(edad)
+edad = int(input("Ingrese Edad: "))
+type(edad)
+
+# concactena
+monto1 = input("Ingrese monto1: ")
+monto2 = input("Ingrese monto2: ")
+print(monto1+monto2)
+
+monto1 = float(input("Ingrese monto1: "))
+monto2 = float(input("Ingrese monto2: "))
+print(monto1*monto2)
+
+# Ejercicio área
+l1 = float(input("Ingrese el ancho de la habitación: "))
+l2 = float(input("Ingrese el largo de la habitación: "))
+area = l1*l2
+print("El área de la habitación es: {}".format(area))
+
+# Operaciones
+div = 4/2
+div_entera = 5//2
+modulo = 5%2
+potencia = 2**4
+raiz = 4**(0.5)
+raiz2 = 9**(0.5)
